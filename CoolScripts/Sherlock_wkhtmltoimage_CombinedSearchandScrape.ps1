@@ -4,6 +4,14 @@ REQUIREMENTS/Utilizes:
 https://wkhtmltopdf.org/docs.html
 https://github.com/sherlock-project/sherlock
 
+GUIDE:
+
+1. Create the following empty file in the same dir as the script : "logs.txt"
+2. Create the following empty file in the same dir as the script : "input-namesList.txt"
+3. Populate "input-namesList.txt" with names/usernames you wish to hunt for.
+4. Run the script and check the "sherlockoutput" folder for output. This folder will be generated in the same location as the executed script.
+5. Use responsibly...
+
 #>
 
 $outputFolder = ".\sherlockoutput\"
